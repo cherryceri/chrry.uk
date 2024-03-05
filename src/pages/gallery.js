@@ -4,7 +4,7 @@ import * as cmp from '../components/components.js';
 const Gallery = () => {
 
     const items = [
-        { text: 'My first animated pixel art sprite', img: 'https://imgur.com/YHmdJ8l.gif' },
+        { title: 'Wanderer', text: 'my first pixel art sprite', img: 'https://imgur.com/YHmdJ8l.gif' },
     ];
 
     return (
@@ -20,7 +20,7 @@ const Gallery = () => {
                 <div className="flex container relative top-10 md:top-10 leading-3 flex-row items-center justify-center text-neutral text-3xl mt-1.5">
                     <div className='grid grid-cols-2 gap-4 md:gap-10 md:grid-cols-3 xl:grid-cols-4 w-full font-serif max-w-[900px] px-10'>
                         {items.map((item, index) => (
-                            <cmp.GridItem key={index} text={item.text} img={item.img} />
+                            <cmp.GridItem key={index} title={item.title} text={item.text} img={item.img} />
                         ))}
                     </div>
                 </div>

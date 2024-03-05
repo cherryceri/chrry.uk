@@ -10,15 +10,15 @@ const Home = () => {
 
                 <cmp.Title text="cherry" />
 
-                <p className="tracking-widest text-secondary animate-pulse">Under Construction</p>
-
                 <cmp.Divider />
 
-                <div className="flex container flex-row items-center justify-center text-neutral text-3xl space-x-0.5 mt-1.5">
+                <cmp.SubTitle text="personal links" />
+                <div className="flex container flex-row items-center justify-center text-neutral text-3xl space-x-0.5">
                     <cmp.IconButton icon="play-box" title="YouTube" link="https://www.youtube.com/channel/UCFdFRJM_tyKdw3TdBRqi9vw" />
-                    <cmp.IconButton icon="alpha-x-box" title="X" link="https://www.youtube.com/channel/UCFdFRJM_tyKdw3TdBRqi9vw" />
-                    <cmp.IconButton icon="code-braces-box" title="GitHub" link="https://www.youtube.com/channel/UCFdFRJM_tyKdw3TdBRqi9vw" />
+                    <cmp.IconButton icon="alpha-x-box" title="X" link="https://twitter.com/cerise_cherry" />
+                    <cmp.IconButton icon="code-braces-box" title="GitHub" link="https://github.com/cherryceri" />
                     <cmp.IconButton icon="earth-box" title="AMP Panel" link="https://amp.chrry.uk" />
+                    <cmp.IconButton icon="alpha-w-box" title="WoW (i'm bad)" link="https://sod.warcraftlogs.com/character/id/78739921" />
                 </div>
             </div>
         </div >

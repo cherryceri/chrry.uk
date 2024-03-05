@@ -3,3 +3,4 @@ export { default as Navbar } from './nav/navbar.js';
 export { default as IconButton } from './nav/iconbutton.js';
 export { default as Divider } from './design/divider.js';
 export { default as GridItem } from './grid/griditem.js';
+export { default as SubTitle } from './title/subtitle.js';

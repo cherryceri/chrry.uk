@@ -21,7 +21,7 @@ const Navbar = ({ title }) => {
             <div className="p-4">
                 <div className="mx-auto p-4">
                     <div className="flex justify-between items-center">
-                        <div className="text-tertiary text-2xl tracking-wider font-bold">{title}</div>
+                        <div className="text-tertiary text-xl tracking-wider font-bold">{title}</div>
                         <div className="md:hidden">
                             {/* Hamburger menu */}
                             <button onClick={toggleMenu} className="text-tertiary text-4xl focus:outline-none">
