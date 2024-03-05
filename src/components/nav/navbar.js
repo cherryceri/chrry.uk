@@ -17,8 +17,8 @@ const Navbar = ({ title }) => {
     ];
 
     return (
-        <nav className="absolute top-0 w-full">
-            <div className="p-4 z-10">
+        <nav className="absolute z-40 top-0 w-full">
+            <div className="p-4">
                 <div className="mx-auto p-4">
                     <div className="flex justify-between items-center">
                         <div className="text-tertiary text-2xl tracking-wider font-bold">{title}</div>
