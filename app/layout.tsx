@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 // Supports weights 200-900
-import '@fontsource-variable/nunito';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });

@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-12 lg:p-24">
       <div className="mb-8 w-[333px] md:w-[666px] relative">
         <div className="text-6xl w-4 h-16 right-[2.75rem] md:right-[8.85rem] top-[6rem] md:top-[9.85rem] z-5 absolute mt-[-3rem] mb-[-1rem] animated-droplet cursor-default">.</div>
-        <div className="z-10 w-auto text-center justify-between font-nunito text-[80px] md:text-[128px] font-bold tracking-[0.15em]">
+        <div className="z-10 w-auto text-center justify-between font-nunito nunito-font text-[80px] md:text-[128px] font-bold tracking-[0.15em]">
           <h1 className="top-0 animated-title cursor-default">cherry</h1>
         </div>
         <p className="relative mb-16 flex backdrop-blur-2xl w-fit m-auto rounded-xl border-solid border-2 bg-base3 border-base4 py-4 px-6">
@@ -14,7 +14,7 @@ export default function Home() {
         </p>
 
         <div className="relative mb-16 flex backdrop-blur-2xl w-fill m-auto rounded-xl border-solid border-2 bg-base3 border-base4 pt-2 pb-4 px-6">
-          <div className="bio pl-1 font-nunito text-lg tracking-wide">
+          <div className="bio pl-1 font-nunito nunito-font text-lg tracking-wide">
             <span className="one">my name is cherry. 🍒</span>
             <span className="two">i am a 23 year old living in bristol.</span>
             <span className="three">i am a designer, developer, and an ex esports player.</span>

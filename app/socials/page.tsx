@@ -14,7 +14,7 @@ export default function Home() {
             </span>
           </h2>
         </Link>
-        <div className="z-10 w-auto text-center justify-between font-nunito text-[80px] md:text-[128px] font-bold tracking-[0.15em]">
+        <div className="z-10 w-auto text-center justify-between font-nunito nunito-font text-[80px] md:text-[128px] font-bold tracking-[0.15em]">
           <h1 className="top-0 animated-title cursor-default z-10">cherry</h1>
         </div>
 
@@ -24,7 +24,7 @@ export default function Home() {
 
 
         <div className="relative mb-16 flex backdrop-blur-2xl w-fill m-auto rounded-xl border-solid border-2 bg-base3 border-base4 pt-2 pb-4 px-6">
-          <div className="bio pl-1 font-nunito text-lg tracking-wide">
+          <div className="bio pl-1 font-nunito nunito-font text-lg tracking-wide">
             <span className="one">these are my personal & hobby links.</span>
             <span className="two">they do not at all represent me professionally.</span>
             <span className="three">visit at your own risk.</span>
