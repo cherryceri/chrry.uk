@@ -132,7 +132,8 @@ body {
   }
 
   73% {
-    transform: translateY(244%) scale(1, 1)
+    transform: translateY(244%) scale(1, 1);
+    opacity: 1;
   }
 
   74% {
@@ -140,7 +141,9 @@ body {
   }
 
   100% {
-    transform: translateY(246%) scale(1.5, 1.2);
+    transform: translateY(246%) scale(2, 1.2);
+    color: #D74766;
+    opacity: 0;
   }
 }
 
