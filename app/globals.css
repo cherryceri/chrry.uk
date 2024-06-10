@@ -111,7 +111,8 @@ body {
 
 @keyframes droplet {
   0% {
-    transform: translateY(0) scaleY(1);
+    color: transparent;
+    transform: translateY(0) scale(1, 1);
     opacity: 0;
   }
 
@@ -124,6 +125,7 @@ body {
   }
 
   60% {
+    color: transparent;
     transform: translateY(0.17rem) scaleY(1.25);
   }
 
