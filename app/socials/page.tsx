@@ -18,7 +18,7 @@ export default function Home() {
           <h1 className="top-0 animated-title cursor-default z-10">cherry</h1>
         </div>
 
-        <p className="relative mb-12 md:mb-16 flex backdrop-blur-2xl w-fit m-auto rounded-xl border-solid border-2 bg-base3 border-base4 py-4 px-6">
+        <p className="relative mb-[4.8rem] md:mb-16 flex backdrop-blur-2xl w-fit m-auto rounded-xl border-solid border-2 bg-base3 border-base4 py-4 px-6">
           <code className="pl-1 font-mono font-bold typewriter tw20">app/chrry.uk/socials</code>
         </p>
 

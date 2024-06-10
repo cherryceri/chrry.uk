@@ -9,7 +9,7 @@ export default function Home() {
         <div className="z-10 w-auto text-center justify-between font-nunito nunito-font text-[80px] md:text-[128px] font-bold tracking-[0.15em]">
           <h1 className="top-0 animated-title cursor-default">cherry</h1>
         </div>
-        <p className="relative mb-16 flex backdrop-blur-2xl w-fit m-auto rounded-xl border-solid border-2 bg-base3 border-base4 py-4 px-6">
+        <p className="relative mb-[4.8rem] md:mb-16 flex backdrop-blur-2xl w-fit m-auto rounded-xl border-solid border-2 bg-base3 border-base4 py-4 px-6">
           <code className="pl-1 font-mono font-bold typewriter">app/chrry.uk</code>
         </p>
 
