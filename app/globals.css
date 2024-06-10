@@ -53,9 +53,20 @@ body {
   background-clip: text;
   -moz-background-clip: text;
   -webkit-background-clip: text;
-  animation:
-    title-slide-in 2s cubic-bezier(0.22, 1, 0.36, 1),
+
+  animation: title-slide-in 2s cubic-bezier(0.22, 1, 0.36, 1),
     background-move 15s ease-in-out -7.5s infinite alternate;
+}
+
+.animated-droplet {
+  animation: droplet 6s cubic-bezier(0.5, 0, 0.75, 0) infinite;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(https://preview.redd.it/uwwte8wps4h91.gif?width=640&crop=smart&auto=webp&s=6c241acafa96be0e4231c139a123a4d95228f374);
+  background-size: cover;
+  color: transparent;
+  z-index: 1;
 }
 
 @layer utilities {
@@ -81,6 +92,41 @@ body {
     animation:
       typing 1.80s steps(20, end) 1s forwards,
       blink-caret 1s step-end infinite;
+  }
+}
+
+@keyframes droplet {
+  0% {
+    transform: translateY(0) scaleY(1);
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  45% {
+    transform: translateY(0.15rem) scaleY(1.2);
+  }
+
+  60% {
+    transform: translateY(0.17rem) scaleY(1.25);
+  }
+
+  70% {
+    color: #D74766;
+  }
+
+  73% {
+    transform: translateY(244%) scale(1, 1)
+  }
+
+  74% {
+    transform: translateY(246%) scale(2, 1.2);
+  }
+
+  100% {
+    transform: translateY(246%) scale(1.5, 1.2);
   }
 }
 
