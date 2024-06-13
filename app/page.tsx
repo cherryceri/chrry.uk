@@ -16,10 +16,10 @@ export default function Home() {
         <div className="relative mb-16 flex backdrop-blur-2xl w-fill m-auto rounded-xl border-solid border-2 bg-base3 border-base4 pt-2 pb-4 px-6">
           <div className="bio pl-1 font-nunito nunito-font text-lg tracking-wide">
             <span className="one">my name is cherry. 🍒</span>
-            <span className="two">i am a 23 year old living in bristol.</span>
-            <span className="three">i am a designer, developer, and an ex esports player.</span>
-            <span className="four">my favourite colour is <div className="group inline-block rounded-[20px] align-baseline mx-0.5 mb-[-2px] bg-main h-4 w-4 overflow-hidden whitespace-nowrap transition-all duration-200 hover:w-14">
-              <div className="relative text-sm top-[-1px] text-center pointer-events-none transition-opacity duration-200 opacity-0 group-hover:opacity-100">cerise</div>
+            <span className="two">i am a designer, developer, and an ex esports player.</span>
+            <span className="three">i am 23 years old living in bristol.</span>
+            <span className="four">my favourite colour is <div className="group inline-block rounded-[100px] align-baseline mx-0.5 mb-[-4px] bg-main h-5 w-5 overflow-hidden whitespace-nowrap transition-all duration-200 hover:w-14">
+              <div className="relative text-sm top-[0px] text-center pointer-events-none transition-opacity duration-200 opacity-0 font-bold group-hover:opacity-100">cerise</div>
             </div>.</span>
           </div>
         </div>
